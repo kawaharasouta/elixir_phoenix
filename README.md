@@ -1,15 +1,15 @@
-##Enviroment
-`wget https://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb &&  sudo dpkg -i erlang-solutions_1.0_all.deb`
-`sudo apt update`
-`sudo apt install esl-elang`
-`sudo apt install elixir`
-`mix local.hex`
-`mix archive,install https://github.com/phoenixframework/archives/raw/master/phx_new.ez`
-`sudo apt install inotify-tools`
+## Enviroment
+
+`wget https://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb &&  sudo dpkg -i erlang-solutions_1.0_all.deb`  
+`sudo apt update`  
+`sudo apt install esl-elang`  
+`sudo apt install elixir`  
+`mix local.hex`  
+`mix archive,install https://github.com/phoenixframework/archives/raw/master/phx_new.ez`  
+`sudo apt install inotify-tools`  
 
 
-
-##To start your Phoenix server:
+## To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
   * Create and migrate your database with `mix ecto.create && mix ecto.migrate`
